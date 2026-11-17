@@ -131,9 +131,7 @@
 .r-chip{flex-wrap:wrap;justify-content:center}
 .r-ebook{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:18px 0 0;padding:16px 18px;border-radius:14px;background:#fff;border:2px solid #c6ff3d;box-shadow:0 0 0 4px #c6ff3d33;font-size:15px}.r-ebook .pill{margin:0}
 .ev.morning{background:#fff3dc;color:#92400e}.ev.afternoon{background:#dcf5f2;color:#115e59}
-/* 2기: 영상 대신 미리보기 이미지, 빌더스 데이 다과회 일정 색 */
-.vcard img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:#eef3fb}
-.acc-side .acc-shot:first-child{margin-top:0}
+/* 2기: 빌더스 데이 다과회 일정 색 */
 .t-party{--c:#db2777;--bg:#fde7f1;--fg:#9d174d}
 .ev.party{background:#fde7f1;color:#9d174d}.week tr.party th b{color:#be185d}
 .tcard-grid>.tcard.party,.r-price-cta.two>.party{grid-column:1/-1}
