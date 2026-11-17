@@ -6,12 +6,52 @@
     updated: '2026-11-17',
     months: ['2026-11', '2026-12'],
     types: {
+      free: { label: '무료 설치반 (수강료 0원)', short: '무료' },
       morning: { label: '평일 오전반 · 수 10–12시', short: '오전반' },
       afternoon: { label: '평일 오후반 · 수 13:30–15:30', short: '오후반' },
       weekend: { label: '주말반 · 토 10–12시', short: '주말반' },
       party: { label: '빌더스 데이 다과회 (모든 반)', short: '다과회' }
     },
     events: [
+      {
+            "id": "c2-free-1121",
+            "type": "free",
+            "date": "2026-11-21",
+            "start": "07:00",
+            "end": "09:00",
+            "title": "무료 설치반 · Aside + Grok Bot",
+            "place": "실리콘앨리 B동 1529호 (꼭 B동 엘리베이터 탑승 · 엘리베이터 위쪽 동 표시 확인)",
+            "capacity": "정원 5명 · 누구나",
+            "price": "수강료 무료 · 장소비 1/n 별도",
+            "detail": "Aside와 Grok Bot을 함께 설치하고 첫 요청을 해 봅니다. Grok Premium 구독자는 로그인과 첫 요청까지 진행합니다.",
+            "link": ""
+      },
+      {
+            "id": "c2-free-1205",
+            "type": "free",
+            "date": "2026-12-05",
+            "start": "07:00",
+            "end": "09:00",
+            "title": "무료 설치반 · Aside + Grok Bot",
+            "place": "실리콘앨리 B동 1529호 (꼭 B동 엘리베이터 탑승 · 엘리베이터 위쪽 동 표시 확인)",
+            "capacity": "정원 5명 · 누구나",
+            "price": "수강료 무료 · 장소비 1/n 별도",
+            "detail": "격주로 열리는 같은 내용의 설치반입니다. 편한 날짜 하나를 골라 참석하세요.",
+            "link": ""
+      },
+      {
+            "id": "c2-free-1219",
+            "type": "free",
+            "date": "2026-12-19",
+            "start": "07:00",
+            "end": "09:00",
+            "title": "무료 설치반 · Aside + Grok Bot",
+            "place": "실리콘앨리 B동 1529호 (꼭 B동 엘리베이터 탑승 · 엘리베이터 위쪽 동 표시 확인)",
+            "capacity": "정원 5명 · 누구나",
+            "price": "수강료 무료 · 장소비 1/n 별도",
+            "detail": "격주로 열리는 같은 내용의 설치반입니다. 편한 날짜 하나를 골라 참석하세요.",
+            "link": ""
+      },
       {
             "id": "c2-mo1",
             "type": "morning",

@@ -133,6 +133,7 @@
 .ev.morning{background:#fff3dc;color:#92400e}.ev.afternoon{background:#dcf5f2;color:#115e59}
 /* 2기: 영상 대신 미리보기 이미지, 빌더스 데이 다과회 일정 색 */
 .vcard img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:#eef3fb}
-#previews .vcard:first-child{grid-column:auto}
 .acc-side .acc-shot:first-child{margin-top:0}
-.t-party{--c:#16a34a;--bg:#e8f7ee;--fg:#0f6b33}
+.t-party{--c:#db2777;--bg:#fde7f1;--fg:#9d174d}
+.ev.party{background:#fde7f1;color:#9d174d}.week tr.party th b{color:#be185d}
+.tcard-grid>.tcard.party,.r-price-cta.two>.party{grid-column:1/-1}
