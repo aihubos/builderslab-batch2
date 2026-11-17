@@ -243,7 +243,7 @@
     const stamp = toUtc(data.updated, '09:00');
     const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//AI Builders Lab//Schedule//KO', 'CALSCALE:GREGORIAN'];
     const fold = s => s.replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/,/g, '\\,').replace(/;/g, '\\;');
-    list.forEach(ev => lines.push('BEGIN:VEVENT', 'UID:' + ev.id + '@aibuilderslab-cohort2', 'DTSTAMP:' + stamp,
+    list.forEach(ev => lines.push('BEGIN:VEVENT', 'UID:' + ev.id + '@aibuilderslab-batch2', 'DTSTAMP:' + stamp,
       'DTSTART:' + toUtc(ev.date, ev.start), 'DTEND:' + toUtc(ev.date, ev.end),
       'SUMMARY:' + fold('AI빌더스랩 · ' + ev.title), 'LOCATION:' + fold(ev.place || ''),
       'DESCRIPTION:' + fold([ev.detail, ev.capacity, ev.price].filter(Boolean).join('\n')), 'END:VEVENT'));
