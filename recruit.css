@@ -165,7 +165,7 @@
   .tt tbody th{display:flex;align-items:center;gap:8px}.tt tbody th b{display:inline}.tt tbody th .pill{margin:0}
   .tt td:not(.tt-topic):not(.tt-span):before{content:attr(data-label);display:block;font-size:12px;color:var(--mut);font-weight:600;margin-bottom:3px}
   .tt-chip{white-space:normal}
-  .tt td[data-label="목 오전반"],.tt td[data-label="목 오후반"],.tt td[data-label="토 주말반"]{display:inline-block;width:33.3%;box-sizing:border-box;vertical-align:top;padding:4px 4px 10px 12px}
+  .tt td[data-label="화 오전반"],.tt td[data-label="화 오후반"],.tt td[data-label="토 주말반"]{display:inline-block;width:33.3%;box-sizing:border-box;vertical-align:top;padding:4px 4px 10px 12px}
   .tt td[data-label="토 주말반"]{padding-right:12px}
   .tt td .tt-chip{margin-right:0;padding:6px 8px;font-size:11.5px}.tt td.tt-span .tt-chip{margin-right:6px}
 }
